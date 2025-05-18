@@ -302,9 +302,26 @@ body {
     color: var(--text-color);
 }
 
-.contact {
+.why {
     padding: var(--section-padding) 0;
     background-color: var(--section-background);
+}
+
+.why .info {
+    padding: var(--section-padding) 0;
+    text-align: center;
+}
+
+.why .info p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+
+.contact {
+    padding: var(--section-padding) 0;
+
 }
 
 .contact .info {
@@ -393,6 +410,10 @@ body {
     .services .services-content .srv {
         flex-direction: column;
         text-align: center;
+    }
+
+    .why .info p {
+        font-size: 16px;
     }
 
     .contact .info .label,
